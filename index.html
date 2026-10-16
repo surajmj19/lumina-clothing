@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUMINA</title>
+
+    <link rel="shortcut icon" href="./icons/favicon.svg" type="image/x-icon" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+    />
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="loader" aria-label="Loading">
+      <span>Lumina</span>
+    </div>
+
+    <header>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list" id="primary-navigation">
+          <li><a href="#new-arrival" class="nav-link">New Arrivals</a></li>
+          <li><a href="#women" class="nav-link">Women</a></li>
+          <li><a href="#men" class="nav-link">Men</a></li>
+          <li><a href="#accessories" class="nav-link">Accessories</a></li>
+        </ul>
+      </nav>
+
+      <a href="#main" class="brand-logo">Lumina</a>
+
+      <div class="head-cta">
+        <button class="cart-btn" type="button" aria-label="Cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+
+        <button class="login-btn" type="button" aria-label="Log in">
+          <i class="fa-solid fa-user"></i>
+        </button>
+      </div>
+
+      <button
+        class="nav-mobile toggle-btn"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main class="main" id="main">
+      <section id="hero">
+        <div class="hero-content-left">
+          <h1 class="headline">Wear Your Story</h1>
+          <p class="subtext">Every piece tells a little bit of who you are.</p>
+          <button class="hero-cta-btn" type="button">Shop Collection</button>
+        </div>
+
+        <div class="social-section">
+          <a
+            href="https://www.tiktok.com/"
+            class="social-icon"
+            aria-label="TikTok"
+          >
+            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+          </a>
+
+          <a
+            href="https://www.facebook.com/"
+            class="social-icon"
+            aria-label="Facebook"
+          >
+            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+          </a>
+
+          <a href="https://x.com/" class="social-icon" aria-label="X">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+          </a>
+        </div>
+      </section>
+
+      <section id="new-arrival">
+        <div class="content">
+          <h2 class="section-title">new arrival</h2>
+
+          <div class="card-container">
+            <div class="card" id="women">
+              <div class="img">
+                <img
+                  src="./images/na-1.png"
+                  alt="Trench Coat image"
+                  class="card-img"
+                  loading="lazy"
+                />
+              </div>
+
+              <h3 class="card-title">Wool-Blend Trench Coat</h3>
+              <p class="card-description">Women’s Outerwear</p>
+              <p class="card-price">$ 320</p>
+            </div>
+
+            <div class="card" id="men">
+              <div class="img">
+                <img
+                  src="./images/na-2.png"
+                  alt="Camp-Collar Silk Shirt image"
+                  class="card-img"
+                  loading="lazy"
+                />
+              </div>
+
+              <h3 class="card-title">Camp-Collar Silk Shirt</h3>
+              <p class="card-description">Men’s Shirts</p>
+              <p class="card-price">$ 145</p>
+            </div>
+
+            <div class="card">
+              <div class="img">
+                <img
+                  src="./images/na-3.png"
+                  alt="Asymmetric Ribbed Knit Dress image"
+                  class="card-img"
+                  loading="lazy"
+                />
+              </div>
+
+              <h3 class="card-title">Asymmetric Ribbed Knit Dress</h3>
+              <p class="card-description">Women’s Dresses</p>
+              <p class="card-price">$ 195</p>
+            </div>
+
+            <div class="card" id="accessories">
+              <div class="img">
+                <img
+                  src="./images/na-4n.png"
+                  alt="Structured Canvas Crossbody image"
+                  class="card-img"
+                  loading="lazy"
+                />
+              </div>
+
+              <h3 class="card-title">Structured Canvas Crossbody</h3>
+              <p class="card-description">Accessories</p>
+              <p class="card-price">$ 160</p>
+            </div>
+          </div>
+
+          <button class="section-cta-btn" type="button">Shop All</button>
+        </div>
+      </section>
+
+      <section id="banner">
+        <div class="banner-content">
+          <h2 class="banner-title">The New Season Unveiled</h2>
+          <button class="banner-cta-btn" type="button">Discover All</button>
+        </div>
+      </section>
+
+      <section id="trending">
+        <div class="content">
+          <h2 class="section-title">trending now</h2>
+
+          <div class="card-container">
+            <div class="card">
+              <div class="img">
+                <img
+                  src="./images/tr-1.png"
+                  alt="Wool Trousers image"
+                  class="card-img"
+                  loading="lazy"
+                />
+              </div>
+
+              <h3 class="card-title">Wool Trousers</h3>
+              <p class="card-description">Women's Bottoms</p>
+              <p class="card-price">$ 210</p>
+            </div>
+
+            <div class="card">
+              <div class="img">
+                <img
+                  src="./images/tr-2.png"
+                  alt="Merino Wool Crewneck Sweater image"
+                  class="card-img"
+                  loading="lazy"
+                />
+              </div>
+
+              <h3 class="card-title">Merino Wool Crewneck Sweater</h3>
+              <p class="card-description">Men's Knitwear</p>
+              <p class="card-price">$ 165</p>
+            </div>
+
+            <div class="card">
+              <div class="img">
+                <img
+                  src="./images/tr-3.png"
+                  alt="Draped Satin Slip Dress image"
+                  class="card-img"
+                  loading="lazy"
+                />
+              </div>
+
+              <h3 class="card-title">Draped Satin Slip Dress</h3>
+              <p class="card-description">Women’s Dresses</p>
+              <p class="card-price">$ 175</p>
+            </div>
+
+            <div class="card">
+              <div class="img">
+                <img
+                  src="./images/tr-4.png"
+                  alt="Leather Chelsea Boots image"
+                  class="card-img"
+                  loading="lazy"
+                />
+              </div>
+
+              <h3 class="card-title">Leather Chelsea Boots</h3>
+              <p class="card-description">Footwear</p>
+              <p class="card-price">$ 240</p>
+            </div>
+          </div>
+
+          <button class="section-cta-btn" type="button">Shop All</button>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <div class="gallery-content">
+          <img
+            src="./images/gl-1.png"
+            class="gl-img-1"
+            alt="Lumina fashion collection"
+            loading="lazy"
+          />
+          <img
+            src="./images/gl-2.png"
+            class="gl-img-2"
+            alt="Fashion collection detail"
+            loading="lazy"
+          />
+          <img
+            src="./images/gl-3.png"
+            class="gl-img-3"
+            alt="Contemporary fashion style"
+            loading="lazy"
+          />
+          <img
+            src="./images/gl-4.png"
+            class="gl-img-4"
+            alt="Lumina seasonal fashion"
+            loading="lazy"
+          />
+
+          <div class="grid-content">
+            <h2 class="grid-title">Style has no rules.</h2>
+          </div>
+
+          <div class="grid-content pt-2">
+            <p class="grid-description">
+              Wear what you want, life is too short for boring choices.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter">
+        <div class="newsletter-content">
+          <h2 class="newsletter-headline">Join the Inner Circle</h2>
+
+          <p class="newsletter-subhead">
+            Subscribe to our newsletter and be the first to know about new
+            arrivals, exclusive offers, and style tips.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <label for="email" class="visually-hidden"> Email address </label>
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              class="email"
+              autocomplete="email"
+              required
+            />
+
+            <button type="submit" class="submit">sign up</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <a href="#main" class="brand-logo footer">lumina</a>
+
+        <div class="footer-link">
+          <h4>Discover</h4>
+          <a href="#new-arrival">New arrivals</a>
+          <a href="#women">Women</a>
+          <a href="#men">Men</a>
+          <a href="#accessories">Accessories</a>
+        </div>
+
+        <div class="footer-link">
+          <h4>More links</h4>
+          <a href="#gallery">Style guide</a>
+          <a href="#trending">Blog</a>
+          <a href="#newsletter">Terms of Use</a>
+          <a href="#newsletter">Support</a>
+        </div>
+
+        <div class="footer-link">
+          <h4>Follow</h4>
+
+          <a href="https://www.facebook.com/">
+            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+            Facebook
+          </a>
+
+          <a href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            Instagram
+          </a>
+
+          <a href="https://x.com/">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            Twitter
+          </a>
+
+          <a href="https://www.youtube.com/">
+            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+            Youtube
+          </a>
+        </div>
+      </div>
+
+      <div class="copyright">© Suraj Madhushan 2026</div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
